@@ -1,12 +1,11 @@
-# README #
+# Front-end Developer Exercise #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+Build a fully responsive single webpage based on comp at https://invis.io/RHB9XQT4A
 
-### What is this repository for? ###
+### Requirements ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+* Build static HTML page using SCSS/CSS and JS and commit
+
 
 ### How do I get set up? ###
 
