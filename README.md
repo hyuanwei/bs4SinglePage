@@ -30,7 +30,7 @@ The visual design team has provided several deliverables to help with constructi
 
 * Comps are built in Sketch and can be found in ./resources/rogue-front-end-test.sketch
 
-* Video Links:<br/>
+* Video Links:
   * https://www.youtube.com/watch?v=bDmSL31nnfo
   * https://www.youtube.com/watch?v=pGnszxqCU5s
   * https://www.youtube.com/watch?v=CGPfgz58JtA
