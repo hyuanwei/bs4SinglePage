@@ -7,12 +7,11 @@
 ### Success Criteria ###
 * Responsive
 * Minimally compatible with:
-  * Internet Explorer 10
-  * Chrome 30
-  * Safari 6.1
-  * Firefox 30
-* Markup, styles and scripts should be well organized and thoughtful
-* Project structure should be well organized and thoughtful
+    * Internet Explorer 10
+    * Chrome 30
+    * Safari 6.1
+    * Firefox 30
+* Markup, styles, scripts, and project structure should be well organized and thoughtful
 * Project should match comps
 * Project should run in any required browser
 
@@ -31,9 +30,12 @@ The visual design team has provided several deliverables to help with constructi
 * Comps are built in Sketch and can be found in ./resources/rogue-front-end-test.sketch
 
 * Video Links:
-  * https://www.youtube.com/watch?v=bDmSL31nnfo
-  * https://www.youtube.com/watch?v=pGnszxqCU5s
-  * https://www.youtube.com/watch?v=CGPfgz58JtA
+    * https://www.youtube.com/watch?v=bDmSL31nnfo
+    * https://www.youtube.com/watch?v=pGnszxqCU5s
+    * https://www.youtube.com/watch?v=CGPfgz58JtA
+
+
+* Font used: [Roboto](https://fonts.google.com/specimen/Roboto)
 
 
 ### Final Thoughts ###
