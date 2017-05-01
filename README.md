@@ -5,7 +5,7 @@
 1. Create a pull request to this repository
 
 ### Success Criteria ###
-* Responsive
+* Mobile First Fully Responsive
 * Minimally compatible with:
     * Internet Explorer 10
     * Chrome 30
