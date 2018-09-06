@@ -1,0 +1,67 @@
+html {
+    font-family: Roboto;
+}
+
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #262626;
+}
+
+.main-btn {
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    padding: 1%;
+    width: 200px;
+    height: 50px;
+    cursor: pointer !important;
+}
+
+@media only screen and (max-width: 544px) {
+    .intro-heading {
+        font-size: 40px !important;
+    }
+}
+
+.modal-dialog {
+    max-width: 800px;
+    margin: 30px auto;
+}
+
+.modal-body {
+    position: relative;
+    padding: 0px;
+}
+
+.close {
+    position: absolute;
+    right: -30px;
+    top: 0;
+    z-index: 999;
+    font-size: 2rem;
+    font-weight: normal;
+    color: #fff;
+    opacity: 1;
+}
+
+.font-weight-500 {
+    font-weight: 500;
+}
+
+.font-size-90p {
+    font-size: 90%;
+}
+
+.overlay {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
