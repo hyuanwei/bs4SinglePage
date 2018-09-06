@@ -43,8 +43,7 @@
         </div>
       </header>
 
-      <button class="text-uppercase w3-button w3-black w3-round-xxlarge main-btn font-weight-bold" onclick="playFilm()">watch
-        the film <i class="fas fa-caret-right"></i></button>
+      <button class="text-uppercase w3-button w3-black w3-round-xxlarge main-btn font-weight-bold" onclick="playFilm()">watch the film <i class="fas fa-caret-right"></i></button>
 
       <!-- Contact -->
       <section id="content">
@@ -118,106 +117,96 @@
 
               <hr style="border-color:black; background-color:black; color:black">
               <br>
-              <h4>STORIES OF THE STONES</h4>
-              <br>
 
-              <div class="row">
-
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                  <div class="video-container" style="cursor:pointer" onclick="playFilm()">
-                    <div class="overlay">
-                      <img class="img-fluid" src="assets/icon-play-wsh.png" alt="">
+              <div id="videoBox">
+                <h4>STORIES OF THE STONES</h4>
+                <br>
+  
+                <div class="row">
+  
+                  <div class="col-md-4 col-sm-6 portfolio-item">
+                    <div class="video-container" style="cursor:pointer" onclick="playFilm()">
+                      <div class="overlay">
+                        <img class="img-fluid" src="assets/icon-play-wsh.png" alt="">
+                      </div>
+                      <img class="img-fluid" src="assets/stoneland-video-still-1.jpg" alt="">
                     </div>
-                    <img class="img-fluid" src="assets/stoneland-video-still-1.jpg" alt="">
+                    <div class="portfolio-caption text-left">
+                      <h6>SCOTLAND BY AIR</h6>
+                      <small>An aerial view of the rough terrain that makes up the Scottish Highlands.</small>
+                    </div>
                   </div>
-                  <div class="portfolio-caption text-left">
-                    <h6>SCOTLAND BY AIR</h6>
-                    <small>An aerial view of the rough terrain that makes up the Scottish Highlands.</small>
+  
+                  <div class="col-md-4 col-sm-6 portfolio-item">
+                    <div class="video-container" style="cursor:pointer" onclick="playFilm('link2')">
+                      <div class="overlay">
+                        <img class="img-fluid" src="assets/icon-play-wsh.png" alt="">
+                      </div>
+                      <img class="img-fluid" src="assets/stoneland-video-still-2.jpg" alt="">
+                    </div>
+                    <div class="portfolio-caption text-left">
+                      <h6>THE SOUL OF SCOTLAND</h6>
+                      <small>The national anthem of Scotland as performed at the Aboyne Highland Games.</small>
+                    </div>
+                  </div>
+  
+                  <div class="col-md-4 col-sm-6 portfolio-item">
+                    <div class="video-container" style="cursor:pointer" onclick="playFilm('link3')">
+                      <div class="overlay">
+                        <img class="img-fluid" src="assets/icon-play-wsh.png" alt="">
+                      </div>
+                      <img class="img-fluid" src="assets/stoneland-video-still-3.jpg" alt="">
+                    </div>
+                    <div class="portfolio-caption text-left">
+                      <h6>WHO IS BILL CRAWFORD</h6>
+                      <small>For American Bill Crawford, a physician by day, stone lifting and its Scottish heritage has
+                        become a passion.</small>
+                    </div>
                   </div>
                 </div>
+  
+                <hr style="border-color:black; background-color:black; color:black">
+                <br>
+              </div>
 
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                  <div class="video-container" style="cursor:pointer" onclick="playFilm('link2')">
-                    <div class="overlay">
-                      <img class="img-fluid" src="assets/icon-play-wsh.png" alt="">
-                    </div>
-                    <img class="img-fluid" src="assets/stoneland-video-still-2.jpg" alt="">
-                  </div>
-                  <div class="portfolio-caption text-left">
-                    <h6>THE SOUL OF SCOTLAND</h6>
-                    <small>The national anthem of Scotland as performed at the Aboyne Highland Games.</small>
-                  </div>
-                </div>
+              
 
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                  <div class="video-container" style="cursor:pointer" onclick="playFilm('link3')">
-                    <div class="overlay">
-                      <img class="img-fluid" src="assets/icon-play-wsh.png" alt="">
+              <div id="photoBox">
+                <h4>A WEEK IN SCOTLAND</h4>
+                <br>
+  
+                <div class="row">
+  
+                  <div class="col-md-4 col-sm-6">
+                    <div class="photo-container" style="cursor:pointer">
+                      <img class="img-fluid max-width-250" src="assets/stoneland-image-1.jpg" alt="">
                     </div>
-                    <img class="img-fluid" src="assets/stoneland-video-still-3.jpg" alt="">
                   </div>
-                  <div class="portfolio-caption text-left">
-                    <h6>WHO IS BILL CRAWFORD</h6>
-                    <small>For American Bill Crawford, a physician by day, stone lifting and its Scottish heritage has
-                      become a passion.</small>
+  
+                  <div class="col-md-4 col-sm-6">
+                    <div class="photo-container" style="cursor:pointer">
+                      <img class="img-fluid max-width-250" src="assets/stoneland-image-2.jpg" alt="">
+                    </div>
                   </div>
+  
+                  <div class="col-md-4 col-sm-6">
+                    <div class="photo-container" style="cursor:pointer">
+                      <img class="img-fluid max-width-250" src="assets/stoneland-image-3.jpg" alt="">
+                    </div>
+                  </div>
+  
                 </div>
               </div>
 
-              <hr style="border-color:black; background-color:black; color:black">
-              <br>
-              <h4>A WEEK IN SCOTLAND</h4>
-              <br>
-
-              <div class="row">
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                  <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-                    <div class="portfolio-hover">
-                      <div class="portfolio-hover-content">
-                        <i class="fas fa-plus fa-3x"></i>
-                      </div>
-                    </div>
-                    <img class="img-fluid" src="img/portfolio/01-thumbnail.jpg" alt="">
-                  </a>
-                  <div class="portfolio-caption">
-                    <h4>Threads</h4>
-                    <p class="text-muted">Illustration</p>
-                  </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                  <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
-                    <div class="portfolio-hover">
-                      <div class="portfolio-hover-content">
-                        <i class="fas fa-plus fa-3x"></i>
-                      </div>
-                    </div>
-                    <img class="img-fluid" src="img/portfolio/02-thumbnail.jpg" alt="">
-                  </a>
-                  <div class="portfolio-caption">
-                    <h4>Explore</h4>
-                    <p class="text-muted">Graphic Design</p>
-                  </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                  <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
-                    <div class="portfolio-hover">
-                      <div class="portfolio-hover-content">
-                        <i class="fas fa-plus fa-3x"></i>
-                      </div>
-                    </div>
-                    <img class="img-fluid" src="img/portfolio/03-thumbnail.jpg" alt="">
-                  </a>
-                  <div class="portfolio-caption">
-                    <h4>Finish</h4>
-                    <p class="text-muted">Identity</p>
-                  </div>
-                </div>
-              </div>
+              <button class="text-uppercase w3-button w3-black w3-round-xxlarge main-btn font-weight-bold" onclick="viewPhoto()">view gallery <i class="fas fa-caret-right"></i></button>
 
               <br>
               <br>
+              <br>
+              <br>
 
-              <div class="row">
+
+              <div id="socialBox" class="row">
                 <div class="col-sm-4">
                 </div>
                 <div class="col-sm-4">
