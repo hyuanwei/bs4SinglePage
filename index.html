@@ -16,6 +16,8 @@
     crossorigin="anonymous">
 
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" integrity="sha256-HAaDW5o2+LelybUhfuk0Zh2Vdk8Y2W2UeKmbaXhalfA="
+    crossorigin="anonymous" />
 
   <link href="styles.css" rel="stylesheet">
   <link href="custom.css" rel="stylesheet">
@@ -43,7 +45,8 @@
         </div>
       </header>
 
-      <button class="text-uppercase w3-button w3-black w3-round-xxlarge main-btn font-weight-bold" onclick="playFilm()">watch the film <i class="fas fa-caret-right"></i></button>
+      <button class="text-uppercase w3-button w3-black w3-round-xxlarge main-btn font-weight-bold" onclick="playFilm()">watch
+        the film <i class="fas fa-caret-right"></i></button>
 
       <!-- Contact -->
       <section id="content">
@@ -121,9 +124,9 @@
               <div id="videoBox">
                 <h4>STORIES OF THE STONES</h4>
                 <br>
-  
+
                 <div class="row">
-  
+
                   <div class="col-md-4 col-sm-6 portfolio-item">
                     <div class="video-container" style="cursor:pointer" onclick="playFilm()">
                       <div class="overlay">
@@ -136,7 +139,7 @@
                       <small>An aerial view of the rough terrain that makes up the Scottish Highlands.</small>
                     </div>
                   </div>
-  
+
                   <div class="col-md-4 col-sm-6 portfolio-item">
                     <div class="video-container" style="cursor:pointer" onclick="playFilm('link2')">
                       <div class="overlay">
@@ -149,7 +152,7 @@
                       <small>The national anthem of Scotland as performed at the Aboyne Highland Games.</small>
                     </div>
                   </div>
-  
+
                   <div class="col-md-4 col-sm-6 portfolio-item">
                     <div class="video-container" style="cursor:pointer" onclick="playFilm('link3')">
                       <div class="overlay">
@@ -159,46 +162,63 @@
                     </div>
                     <div class="portfolio-caption text-left">
                       <h6>WHO IS BILL CRAWFORD</h6>
-                      <small>For American Bill Crawford, a physician by day, stone lifting and its Scottish heritage has
+                      <small>For American Bill Crawford, a physician by day, stone lifting and its Scottish heritage
+                        has
                         become a passion.</small>
                     </div>
                   </div>
                 </div>
-  
+
                 <hr style="border-color:black; background-color:black; color:black">
                 <br>
               </div>
 
-              
-
               <div id="photoBox">
                 <h4>A WEEK IN SCOTLAND</h4>
                 <br>
-  
+
                 <div class="row">
-  
+
                   <div class="col-md-4 col-sm-6 d-none d-sm-block">
-                    <div class="photo-container" style="cursor:pointer">
-                      <img class="img-fluid" src="assets/stoneland-image-1.jpg" alt="">
-                    </div>
+                    <a href="assets/stoneland-gallery-1.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+                      class="col-sm-4">
+                      <img src="assets/stoneland-image-1.jpg" class="img-fluid">
+                    </a>
                   </div>
-  
+
                   <div class="col-md-4 col-sm-6">
-                    <div class="photo-container" style="cursor:pointer">
-                      <img class="img-fluid" src="assets/stoneland-image-2.jpg" alt="">
-                    </div>
+                    <a id="mobilePhoto" href="assets/stoneland-gallery-2.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+                      class="col-sm-4">
+                      <img src="assets/stoneland-image-2.jpg" class="img-fluid">
+                    </a>
                   </div>
-  
+
                   <div class="col-md-4 col-sm-6 d-none d-sm-block">
-                    <div class="photo-container" style="cursor:pointer">
-                      <img class="img-fluid" src="assets/stoneland-image-3.jpg" alt="">
-                    </div>
+                    <a href="assets/stoneland-gallery-3.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+                      class="col-sm-4">
+                      <img src="assets/stoneland-image-3.jpg" class="img-fluid">
+                    </a>
                   </div>
-  
+
+                  <div class="col-md-4 col-sm-6 d-none">
+                    <a href="assets/stoneland-gallery-4.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+                      class="col-sm-4">
+                      <img src="assets/stoneland-image-4.jpg" class="img-fluid">
+                    </a>
+                  </div>
+
+                  <div class="col-md-4 col-sm-6 d-none">
+                    <a href="assets/stoneland-gallery-5.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+                      class="col-sm-4">
+                      <img src="assets/stoneland-image-5.jpg" class="img-fluid">
+                    </a>
+                  </div>
+
                 </div>
               </div>
 
-              <button class="text-uppercase w3-button w3-black w3-round-xxlarge main-btn font-weight-bold" onclick="viewPhoto()">view gallery <i class="fas fa-caret-right"></i></button>
+              <button class="text-uppercase w3-button w3-black w3-round-xxlarge main-btn font-weight-bold" onclick="viewPhoto()">view
+                gallery <i class="fas fa-caret-right"></i></button>
 
               <br>
               <br>
@@ -227,7 +247,7 @@
                 </div>
                 <div class="col-sm-4">
                 </div>
-    
+
               </div>
 
             </div>
@@ -312,6 +332,8 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js" integrity="sha256-H3cjtrm/ztDeuhCN9I4yh4iN2Ybx/y1RM7rMmAesA0k="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js" integrity="sha256-Y1rRlwTzT5K5hhCBfAFWABD4cU13QGuRN6P5apfWzVs="
     crossorigin="anonymous"></script>
 
   <script src="scripts.js"></script>
